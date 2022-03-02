@@ -1,0 +1,23 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "global.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clpowe/node-crash-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clpowe/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/clpowe/node-crash-course#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
