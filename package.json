@@ -1,28 +1,27 @@
 {
   "name": "crash-course",
   "version": "1.0.0",
-  "description": "",
-  "main": "global.js",
+  "description": "a node crash course",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clpowe/node-crash-course.git"
+    "url": "git+https://github.com/iamshaunjp/node-crash-course.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "net ninja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/clpowe/node-crash-course/issues"
+    "url": "https://github.com/iamshaunjp/node-crash-course/issues"
   },
-  "homepage": "https://github.com/clpowe/node-crash-course#readme",
-  "devDependencies": {
-    "typescript": "^4.6.2"
-  },
+  "homepage": "https://github.com/iamshaunjp/node-crash-course#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "lodash": "^4.17.21"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0"
   }
 }
